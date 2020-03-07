@@ -1,2 +1,0 @@
-# features-pwa
-features PWA
