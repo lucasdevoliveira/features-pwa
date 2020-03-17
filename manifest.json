@@ -1,0 +1,16 @@
+{
+  "name": "Features PWA",
+  "short_name": "Features PWA",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#2F3BA2",
+  "background_color": "#3E4EB8",
+  "description": "Website for show features pwa",
+  "icons": [
+    {
+      "src": "/images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
