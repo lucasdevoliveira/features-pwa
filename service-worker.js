@@ -1,4 +1,4 @@
-const cache = "feature_pwa_v1";
+const cache = "feature_pwa_v2";
 const staticAssets = ["./", "./index.html"];
 this.addEventListener("install", event => {
   event.waitUntil(
