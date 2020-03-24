@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#666">
-    <link rel="manifest" href="./manifest.json">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#666" />
+    <link rel="apple-touch-icon" href="./app/assets/images/icon-512x512.png" />
+    <link rel="manifest" href="./app/assets/jsons/manifest.json" />
     <title>Features PWA</title>
     <script>
-      const serviceWorker = navigator.serviceWorker.register('service-worker.js')
-      serviceWorker.then(reg => {
-        console.info('registered sw', reg)
-      }).catch(error => {
-        console.error('error registering sw', error);
-      })
-
+      const serviceWorker = navigator.serviceWorker.register(
+        "app/assets/scripts/service-worker.js"
+      );
+      serviceWorker
+        .then(reg => {
+          console.info("registered sw", reg);
+        })
+        .catch(error => {
+          console.error("error registering sw", error);
+        });
     </script>
   </head>
   <body>
