@@ -13,8 +13,9 @@ this.addEventListener("activate", event => {
     caches.keys().then(cacheNames => {
       return Promise.all(
         cacheNames
-          .filter(cacheName => cacheName.startsWith("feature_pwa_"))
-          .filter(cacheName => cacheName !== staticCacheName)
+          .filter(cacheName => {
+            return cacheName.startsWith("feature_pwa_");
+          })
           .map(cacheName => caches.delete(cacheName))
       );
     })
