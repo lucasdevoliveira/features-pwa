@@ -1,0 +1,34 @@
+{
+  "name": "features-pwa",
+  "version": "1.0.0",
+  "description": "features pwa",
+  "main": "index.js",
+  "homepage": "https://github.com/iamtheolivetree/features-pwa#readme",
+  "author": "lucas de oliveira",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamtheolivetree/features-pwa.git"
+  },
+  "keywords": [
+    "web-components",
+    "lit-element",
+    "webpack",
+    "javascript",
+    "pwa"
+  ],
+  
+  "bugs": {
+    "url": "https://github.com/iamtheolivetree/features-pwa/issues"
+  },
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "dependencies": {
+    "html-webpack-plugin": "^4.0.3",
+    "lit-element": "^2.3.1",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
